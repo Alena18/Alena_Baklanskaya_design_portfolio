@@ -4,17 +4,48 @@ body{
     font-family: Tangerine, sans-serif;
     font-weight: 700;
     font-size: 250%;
+    color: #AE8E59;
 
 }
 
 
 
-/* logo and header*/
+/* heading and logo*/
 
 #logo {
     float: left;
 }
- nav {
+
+
+ /* navigation and links */
+
+ #menu {
     font-family: "Bebas Neue", serif;
-    font-size: 50%;    
- }
+    font-size: 50%;
+    float: right;
+    color: #42250F;    
+ } 
+
+ #menu, #logo {
+    line-height: 100px;
+ 
+  }
+ 
+  #menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+  }
+ 
+  #menu a {
+    text-decoration: none;
+    color: inherit;
+  }
+ 
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
+ 
+  .active {
+    border-bottom: 1px solid #3a3a3a;
+  }
