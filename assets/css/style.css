@@ -49,3 +49,12 @@ body{
   .active {
     border-bottom: 1px solid #3a3a3a;
   }
+
+  /* images and body */
+
+#job-sample {
+  width: 15%;
+  bottom: 20%;
+  right: 85%;
+  position: absolute;
+}
