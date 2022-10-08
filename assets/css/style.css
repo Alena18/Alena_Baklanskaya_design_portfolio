@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tangerine:wght@700&display=swap');
 
 body{
+    background-color: #faf1e9;
     font-family: Tangerine, sans-serif;
     font-weight: 700;
     font-size: 250%;
@@ -57,4 +58,52 @@ body{
   bottom: 20%;
   right: 85%;
   position: absolute;
+}
+
+/* slider */
+
+.slider {
+  width: 50vw;
+  height: 70vh;
+  border-radius: 55%;
+  position: absolute;
+  left: 10vw;
+  top: 10vh;
+  background-size: 100% 100%;
+  margin-top: 5vh;
+  box-shadow: 3px 5px 10px 15px #AE8E59;
+  animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+  0%{background-image: url(../images/Happy\ 100th\ birthday.jpg);}
+  35%{background-image: url(../images/tshirt.jpg);}
+  75%{ background-image: url(../images/business\ cards01.jpg);}
+
+}
+
+/* button */
+
+.button {
+  background-color: #42250F;
+  border: none;
+  border-radius: 25% 0%;
+  padding: 15px;
+  color: #AE8E59;
+  text-align: center;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+#view-work {
+  position: absolute;
+  right: 20vw;
+  top: 70vh;
+}
+
+#hire-me {  
+  position: fixed;
+  right: 5vw;
+  top: 85vh;
+
 }
