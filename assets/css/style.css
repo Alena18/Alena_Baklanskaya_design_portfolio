@@ -25,7 +25,8 @@ body{
     font-family: "Bebas Neue", serif;
     font-size: 50%;
     float: right;
-    color: #42250F;    
+    color: #42250F;
+    letter-spacing: .1vw;    
  } 
 
  #menu, #logo {
@@ -65,11 +66,8 @@ a:hover {
   border-width: 15px;
   border-style: groove;
   border-color: #42250F;
-  position: fixed;
-  left: 10vw;
-  top: 10vh;
   background-size: 100% 100%;
-  margin-top: 5vh;
+  margin: 5% 15% 30% 7%;
   box-shadow: 3px 5px 10px 15px #AE8E59;
   animation: slider 14s infinite linear;
 }
@@ -97,18 +95,19 @@ a:hover {
   font-size: 80%;
 }
 
-.view-work {
-  position: fixed;
+#view-work {
+  position: absolute;
   right: 20vw;
   top: 72vh;
 }
 
-.hire-me {  
-  position: fixed;
+#hire-me {  
+  position: absolute;
   right: 5vw;
   top: 80vh;
 
 }
+
  /* home page text */
 
  #portfolio-text {
@@ -117,9 +116,7 @@ a:hover {
   float: right;
   font-size: 2.5vw;
   line-height: 8vh;
-  position: fixed;
-  right: 4vw;
-  top: 20vh;
+  margin: 3% 4% 30% 90%;
  }
 
  /* footer */
@@ -127,7 +124,7 @@ a:hover {
 .contacts {
     width: 35%;
     font-size: 1.8vw;
-    position: fixed;
+    position: absolute;
     padding: 36% 77%;
 }
 
