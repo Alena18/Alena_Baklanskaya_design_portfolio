@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bebas+Neue&family=Tangerine:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Telugu:wght@300&family=Tangerine:wght@700&display=swap');
 
 body{
     background-color: #faf1e9;
@@ -19,7 +19,7 @@ body{
 }
 
 
- /* navigation and links */
+ /* navigation */
 
  #menu {
     font-family: "Bebas Neue", serif;
@@ -39,17 +39,19 @@ body{
     margin-right: 55px;
   }
  
-  #menu a {
+  /* links */
+
+a {
     text-decoration: none;
-    color: inherit;
+    color: #42250F;
   }
  
-  #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+a:hover {
+    border-bottom: 1px solid #42250F;
   }
  
-  .active {
-    border-bottom: 1px solid #3a3a3a;
+.active {
+    border-bottom: 1px solid #42250F;
   }
 
   
@@ -119,3 +121,18 @@ body{
   right: 4vw;
   top: 20vh;
  }
+
+ /* footer */
+
+.contacts {
+    width: 35%;
+    font-size: 1.8vw;
+    position: fixed;
+    padding: 36% 77%;
+}
+
+.font-number {
+  font-family: "Bebas Neue", Tangerine, sans-serif;
+  font-weight: 100;
+  font-size: 1.2vw;
+}
