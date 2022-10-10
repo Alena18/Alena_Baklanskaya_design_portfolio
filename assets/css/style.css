@@ -97,13 +97,13 @@ a:hover {
   font-size: 80%;
 }
 
-#view-work {
+.view-work {
   position: fixed;
   right: 20vw;
   top: 72vh;
 }
 
-#hire-me {  
+.hire-me {  
   position: fixed;
   right: 5vw;
   top: 80vh;
