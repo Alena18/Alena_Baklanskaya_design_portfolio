@@ -104,7 +104,7 @@ a:hover {
 #hire-me {  
   position: absolute;
   right: 5vw;
-  top: 80vh;
+  top: 78vh;
 
 }
 
@@ -125,11 +125,39 @@ a:hover {
     width: 35%;
     font-size: 1.8vw;
     position: absolute;
-    padding: 36% 77%;
+    margin-top: -35%;
+    margin-left: 74%;
+    float: left;
 }
 
 .font-number {
   font-family: "Bebas Neue", Tangerine, sans-serif;
   font-weight: 100;
   font-size: 1.2vw;
+}
+
+/* gallery job-sample*/
+#job-sample {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+
+  animation-name: job-sample;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for job-sample */
+@keyframes job-sample {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#job-sample > img {
+  width: 100%;
 }
