@@ -129,9 +129,6 @@ a:hover {
     margin-left: 70%;
     float: left;
 }
-.contacts-view-work {
-  margin-left: 74%;
-}
 .font-number {
   font-family: "Bebas Neue", Tangerine, sans-serif;
   font-weight: 100;
@@ -140,6 +137,7 @@ a:hover {
 
 /* gallery job-sample*/
 #job-sample {
+  margin-top: 6%;
   clear: both;
   line-height: 0;
   column-count: 4;
@@ -325,6 +323,10 @@ a:hover {
 #hire-me {
   top: 40vh;
 }
+#job-sample {
+  --num-cols: 1;
+}
+
   }
   /* For small screen sizes below 288px width */
 @media screen and (max-width: 288px) {
@@ -345,4 +347,20 @@ a:hover {
   #hire-me {
     top: 30vh;
   }
+  #job-sample {
+    background-color: white;
+    --gap: 0;
+    --num-cols: 1;
+    --row-height: 5%;
+ 
+    box-sizing: border-box;
+    padding: var(--gap);
+ 
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+ 
+ }
+ 
 }
