@@ -158,6 +158,24 @@ a:hover {
     }
 }
 
+#job-sample {
+   background-color: white;
+   --gap: 16px;
+   --num-cols: 3;
+   --row-height: 300px;
+
+   box-sizing: border-box;
+   padding: var(--gap);
+
+   display: grid;
+   grid-template-columns: repeat(var(--num-cols), 1fr);
+   grid-auto-rows: var(--row-height);
+   gap: var(--gap);
+
+}
+
 #job-sample > img {
   width: 100%;
+  height: 100%;
+  object-fit: scale-down;
 }
