@@ -151,10 +151,10 @@ a:hover {
 /* creates the level of zoom for job-sample */
 @keyframes job-sample {
     from{
-        transform: scale(1);
+        transform: scale(0.5);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1);
     }
 }
 
