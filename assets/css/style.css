@@ -237,17 +237,17 @@ a:hover {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
- .slider {
+.slider {
       width: 55%;
       height: 60vh; 
       margin: 5% auto auto 5%;
     }
  
  #menu {
-  width: 35%;
-  margin-right: -5%;
-  font-size: 40%;
-  line-height: 30px;
+    width: 35%;
+    margin-right: -5%;
+    font-size: 40%;
+    line-height: 30px;
   }
 
   #menu li {
@@ -297,13 +297,13 @@ a:hover {
     line-height: 20px;
     }
   
-    #menu li {
-      float: left;
-      list-style-type: none;
-      margin-right: 40%;
+  #menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 40%;
     }
   
-    .button {
+  .button {
       font-size: 60%;
       padding: 9px;
       width: 8%;
@@ -332,11 +332,16 @@ a:hover {
   .font-number {
     font-size: 3vw;
   }
-  
+  .contact-email {
+    width: 65%;
+    font-size: 5vw;
+    margin-top: 15%;
+    margin-left: 38%;
+ }
 }
 /* For small screen sizes below 650px width */
 @media screen and (max-width: 650px) {
-  #logo {
+#logo {
     width: 35%;
 }
 .slider {
@@ -379,15 +384,53 @@ a:hover {
 #job-sample {
   --num-cols: 1;
 }
-
+.contacts {
+  width: 80%;
+  float: right;
+  margin-top: 35%;
+}
+.contact-email {
+  width: 70%;
+  font-size: 5vw;
+  margin-top: 25%;
+  margin-right: 15%;
+}
   }
 
+/* For small screen sizes below 330px width */
+@media screen and (max-width: 330px) {
+  .contacts {
+    margin-top: 45%;
+  }
+  #portfolio-text {
+    line-height: 4.3vh;
+}
+.contact-email {
+  font-size: 8vw;
+  margin-top: 35%;
+  width: 100%;
+  margin-left: 1%;
+}
+.font-number {
+  font-size: 5vw;
+}
+.signup-form {
+  display: block;
+  font-size: 50%;
+  border-radius: 5%;
+  opacity: .9;
+  max-width: 70%;
+  position: absolute;
+  left: 3%;
+}
 
-  /* For small screen sizes below 288px width */
-@media screen and (max-width: 288px) {
+}
+  /* For small screen sizes below 295px width */
+@media screen and (max-width: 295px) {
   #portfolio-text {
     font-size: 3vh;
-    margin: 20vh 4% 30% 90%;
+    margin: 31vh 4% 30% 90%;
+    line-height: 4vh;
 
    }
   .button {
@@ -395,27 +438,28 @@ a:hover {
     width: 80%;
   }
   #view-work {
-    top: 20vh;
+    top: 30vh;
     right: 7vh;
     left: 3vw;
   }
   #hire-me {
-    top: 30vh;
+    top: 40vh;
   }
   #job-sample {
-    background-color: white;
-    --gap: 0;
-    --num-cols: 1;
-    --row-height: 5%;
- 
-    box-sizing: border-box;
-    padding: var(--gap);
- 
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-    gap: var(--gap);
+    margin-top: 20%;
  
  }
- 
+ .contacts {
+  margin-top: 1%;
+}
+.contact-email {
+  font-size: 6vw;
+  margin-top: -15%;
+  width: 100%;
+  float: right;
+  margin-right: -6%;
+}
+.input-text {
+    width: 100%;
+}
 }
