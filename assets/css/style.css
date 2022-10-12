@@ -129,6 +129,12 @@ a:hover {
     margin-left: 70%;
     float: left;
 }
+.contact-email {
+   width: 35%;
+   font-size: 1.8vw;
+   margin-top: 5%;
+   margin-left: 78.5%;
+}
 .font-number {
   font-family: "Bebas Neue", Tangerine, sans-serif;
   font-weight: 100;
@@ -178,10 +184,13 @@ a:hover {
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
-
+.feedback {
+  height: 50vh;
+  width: 50vw;
+}
 .button-submit {
   float: right;
-  font-family: Tangerine, sans-serif;;
+  font-family: Tangerine, sans-serif;
   background-color: #42250F;
   border: 1px solid #AE8E59;
   border-radius: 25% 0%;
@@ -191,6 +200,7 @@ a:hover {
   text-decoration: none;
   font-size: 150%;
 }
+
 /* creates the level of zoom for job-sample */
 @keyframes job-sample {
     from{
@@ -371,6 +381,8 @@ a:hover {
 }
 
   }
+
+
   /* For small screen sizes below 288px width */
 @media screen and (max-width: 288px) {
   #portfolio-text {
