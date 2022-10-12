@@ -148,6 +148,49 @@ a:hover {
     animation-fill-mode: forwards;
 }
 
+/* signup-form */
+
+
+.signup-form {
+  display: block;
+  font-size: 60%;
+  margin: 1% 10%;
+  color: #AE8E59;
+  background-color: #42250F;
+  border-radius: 5%;
+  opacity: .9;
+  max-width: 70%;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+}
+
+.signup-form h2 {
+  font-size: 250%;
+  text-align: center;
+}
+
+.input-text {
+  background: transparent;
+    width: 60%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.button-submit {
+  float: right;
+  font-family: Tangerine, sans-serif;;
+  background-color: #42250F;
+  border: 1px solid #AE8E59;
+  border-radius: 25% 0%;
+  padding: 15px;
+  color: #AE8E59;
+  text-align: center;
+  text-decoration: none;
+  font-size: 150%;
+}
 /* creates the level of zoom for job-sample */
 @keyframes job-sample {
     from{

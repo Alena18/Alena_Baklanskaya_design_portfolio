@@ -23,25 +23,30 @@
         </nav>
     </header>
     <br>
-    <div>
-         <p id="portfolio-text">Hi, welcome to CoffeeBeanStudio.<br>I'm Alena. I have experience in product promotion design. Checkout my work and if you are interested feel free to contact me.</p>  
-    </div>
-    <div>
-        <div class="slider"></div><br>
-    </div>
     <br>
-    <div>
-        <a href="view-work.html" class="button" id="view-work" target="_blank" rel="noopener">View Work</a>
-        <a href="feedback.html" class="button" id="hire-me" target="_blank" rel="noopener">Hire  Me</a>
-    </div>
-    
-    
-    <footer>
-        <div class="contacts">
-                <a href="mailto:coffeebeanstudio1809@gmail.com" target="_blank" rel="noopener"
-                    aria-label="email me (opens in a new tab)"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;coffeebeanstudio<span class="font-number">1809</span>@gmail.com</a>
-        </div>
-    </footer>
-    
+    <section class="form-section">
+        <form method="POST" action="mailto:coffeebeanstudio1809@gmailcom" class="signup-form">
+            <h2>Look forward to getting in touch with you</h2>
+
+            <label for="fname">First Name</label>
+            <br>
+            <input id="fname" name="first_name" type="text" class="input-text" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <br>
+            <input id="lname" name="last_name" type="text" class="input-text">
+            <br>
+            <label for="email">Email Address</label>
+            <br>
+            <input type="email" id="email" name="email_address" class="input-text" required>
+            <br>
+            <br>
+            <label for="feedback">Message</label>
+            <br>
+            <textarea id="feedback" name="feedback" rows="20" cols="100" placeholder="Write your message or project description"></textarea>            
+            <br>
+            <br>
+            <input class="button-submit" type="submit" value="Get in touch">
+        </form>
+    </section>
 </body>
-</html>
