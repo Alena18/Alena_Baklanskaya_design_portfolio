@@ -49,7 +49,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 The link can be found here - https://alena18.github.io/Alena_Baklanskaya_design_portfolio/index.html
 
 
-![Alt text]([..](https://github.com/Alena18/Alena_Baklanskaya_design_portfolio/commit/94b27f912e12e62cbfd24d818a17a15b1cede04d#diff-b350da7cf0960df6c6a156f06183817c7009851535053e823ac72c99ea0ee1fe?raw=true "responsive")
+![Am I responsive page]([..](https://alena18.github.io/Alena_Baklanskaya_design_portfolio/index.html/assets/images/responsive.jpg?raw=true "responsive")
 
 Credit
 ---
