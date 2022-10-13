@@ -2,12 +2,12 @@
 Alena_Baklanskaya_graphic_design_promotional_products_portfolio
 
 ---
-title: CoffeeBeanStudio Graphic Design Portfolio
-source: https://alena18.github.io/Alena_Baklanskaya_design_portfolio/
-description: Portfolio website
-author: Alena Baklanskaya
-created:  2022 Sept 22
-modified: lots of times
+title: CoffeeBeanStudio Graphic Design Portfolio 
+source: https://alena18.github.io/Alena_Baklanskaya_design_portfolio/ 
+description: Portfolio website 
+author: Alena Baklanskaya 
+created:  2022 Sept 22 
+modified: lots of times 
 ---
 
 CoffeeBeanStudio Graphic Design Portfolio website
@@ -30,18 +30,30 @@ Testing
 
 I tested this pages work in different browser : Chrome, Firefox, Safari.
 Also I confirm with W3C HTML validator and it passed, and then W3C CSS validator also passed.
-And last but not least I used Lighthouse it showed 100% accesability for mobile devices and 96% for bigger screens
+And last but not least I used Lighthouse it showed 100% accesability for mobile devices and 96% for bigger screens 
 
 
 Bugs
-The hardest part was to fix responsiveness take most time but it worth it
+The hardest part was to fix responsiveness take most time but it worth it.
+
 
 Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 1. In the GitHub repository, navigate to the Setting tab
-2. On the left handside page section 
-3. 
+2. On the left handside Pages section 
+3. Then choose source: deploy from a branch
+4. Branch: main then root and save
+5. Branch: main then root and save
+6. Once it saved, the page provided the link to the completed website.
+
+The link can be found here - https://alena18.github.io/Alena_Baklanskaya_design_portfolio/index.html
 
 
+![Alt text](/Alena_Baklanskaya_design_portfolio/assets/images/responsive.jpg?raw=true "responsive")
+
+Credit
+---
+Content
+The code to make the social link (email) was taken from Font Awesome https://fontawesome.com
 
 
