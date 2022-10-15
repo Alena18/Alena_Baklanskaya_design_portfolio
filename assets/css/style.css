@@ -126,7 +126,7 @@ a:hover {
 
 #portfolio-text {
   width: 25vw;
-  height: 55vh;
+  /* height: 55vh; */
   float: right;
   font-size: 2.5vw;
   line-height: 8vh;
@@ -136,9 +136,9 @@ a:hover {
 /* footer */
 
 .contacts {
-  width: 35%;
+  /* width: 35%; */
   font-size: 1.8vw;
-  position: absolute;
+  /* position: absolute; */
   margin-top: -40%;
   margin-left: 70%;
   float: left;
@@ -264,8 +264,8 @@ a:hover {
   }
 
   #menu {
-    width: 35%;
-    margin-right: -5%;
+    /* width: 35%;
+    margin-right: -5%; */
     font-size: 40%;
     line-height: 30px;
   }
@@ -297,11 +297,11 @@ a:hover {
   }
 
   .contacts {
-    width: 35%;
+    /* width: 35%; */
     font-size: 1.8vw;
-    position: absolute;
+    /* position: absolute; */
     margin-top: 0;
-    margin-left: 7%;
+    /* margin-left: 7%; */
     float: left;
   }
 }
@@ -314,8 +314,8 @@ a:hover {
     }
 
     #menu {
-      width: 35%;
-      margin-right: -15%;
+      /* width: 35%;
+      margin-right: -15%; */
       font-size: 35%;
       line-height: 20px;
     }
@@ -347,10 +347,10 @@ a:hover {
     }
 
     .contacts {
-      width: 55%;
+      /* width: 55%; */
       font-size: 5vw;
-      position: absolute;
-      margin-top: 35vh;
+      /* position: absolute; */
+      /* margin-top: 35vh; */
       margin-left: 7%;
       float: left;
     }
@@ -412,9 +412,9 @@ a:hover {
     }
 
     .contacts {
-      width: 80%;
+      /* width: 80%; */
       float: right;
-      margin-top: 35%;
+      /* margin-top: 35%; */
     }
 
     .contact-email {
