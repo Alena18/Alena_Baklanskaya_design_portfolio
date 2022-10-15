@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Telugu:wght@300&family=Tangerine:wght@700&display=swap');
 
 body {
-  background-color: #faf1e9;
+  background-color: #fefcfa;
   font-family: Tangerine, sans-serif;
   font-weight: 700;
   font-size: 250%;
-  color: #AE8E59;
+  color: #ab8240;
 
 }
 
@@ -60,21 +60,23 @@ a:hover {
 /* slider */
 
 .slider {
-  width: 50%;
+  clear: both;
+  width: 80%;
   height: 80vh;
   border-radius: 35%;
   border-width: 15px;
   border-style: groove;
   border-color: #42250F;
   background-size: cover;
-  margin: 3% 15% 30% 7%;
-  box-shadow: 3px 5px 10px 15px #AE8E59;
+  box-shadow: 3px 5px 10px 15px #ab8240;
+  animation-name: slider;
   animation: slider 14s infinite linear;
+  margin-left: 10%;
 }
 
 @keyframes slider {
   0% {
-    background-image: url(../images/Happy\ 100th\ birthday.jpg);
+    background-image: url(../images/happyb02.jpg);
   }
 
   35% {
@@ -90,9 +92,19 @@ a:hover {
   }
 
   90% {
-    background-image: url(../images/business\ cards\ ALL.jpg);
+    background-image: url(../images/business02.jpg);
   }
 
+
+}
+
+/* home page text */
+
+#portfolio-text {
+  font-size: 4vw;
+  line-height: 15vh;
+  width: 80%;
+  margin-left: 10%;
 
 }
 
@@ -102,53 +114,32 @@ a:hover {
   background-color: #42250F;
   border: none;
   border-radius: 25% 0%;
-  padding: 15px;
-  color: #AE8E59;
+  padding: 25px;
+  color: #ab8240;
   text-align: center;
   text-decoration: none;
-  font-size: 80%;
+  font-size: 3vw;
+  display: inline;
+  margin-left: 20%;
 }
 
-#view-work {
-  position: absolute;
-  right: 20vw;
-  top: 72vh;
-}
-
-#hire-me {
-  position: absolute;
-  right: 5vw;
-  top: 78vh;
-
-}
-
-/* home page text */
-
-#portfolio-text {
-  width: 25vw;
-  /* height: 55vh; */
-  float: right;
-  font-size: 2.5vw;
-  line-height: 8vh;
-  margin: 5% 4% 30% 90%;
-}
 
 /* footer */
 
 .contacts {
-  /* width: 35%; */
-  font-size: 1.8vw;
-  /* position: absolute; */
-  margin-top: -40%;
-  margin-left: 70%;
-  float: left;
+  font-size: 2.5vw;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 1%;
+
+}
+
+.socialmedia-gap {
+  margin-left: 7px;
 }
 
 .contact-email {
-  width: 35%;
   font-size: 1.8vw;
-  margin-top: 5%;
-  margin-left: 78.5%;
 }
 
 .font-number {
@@ -159,7 +150,7 @@ a:hover {
 
 /* gallery job-sample*/
 #job-sample {
-  margin-top: 6%;
+  /* margin-top: 6%; */
   clear: both;
   line-height: 0;
   column-count: 4;
@@ -176,8 +167,8 @@ a:hover {
 .signup-form {
   display: block;
   font-size: 60%;
-  margin: 1% 10%;
-  color: #AE8E59;
+  /* margin: 1% 10%; */
+  color: #ab8240;
   background-color: #42250F;
   border-radius: 5%;
   opacity: .9;
@@ -197,13 +188,13 @@ a:hover {
   color: white;
   width: 60%;
   height: 25px;
-  margin: 5px 0 20px;
+  /* margin: 5px 0 20px; */
   border: 1px solid #fafafa;
   border-radius: 2px;
 }
 
 .feedback {
-  height: 50vh;
+  /* height: 50vh; */
   width: 50vw;
 }
 
@@ -211,10 +202,10 @@ a:hover {
   float: right;
   font-family: Tangerine, sans-serif;
   background-color: #42250F;
-  border: 1px solid #AE8E59;
+  border: 1px solid #ab8240;
   border-radius: 25% 0%;
   padding: 15px;
-  color: #AE8E59;
+  color: #ab8240;
   text-align: center;
   text-decoration: none;
   font-size: 150%;
@@ -249,7 +240,7 @@ a:hover {
 
 #job-sample>img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   object-fit: scale-down;
 }
 
@@ -257,12 +248,6 @@ a:hover {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-  .slider {
-    width: 55%;
-    height: 60vh;
-    margin: 5% auto auto 5%;
-  }
-
   #menu {
     /* width: 35%;
     margin-right: -5%; */
@@ -283,17 +268,17 @@ a:hover {
   }
 
   #view-work {
-    top: 70vh;
+    /* top: 70vh; */
     right: 20%;
   }
 
   #hire-me {
-    top: 74vh;
+    /* top: 74vh; */
     right: 7vw;
   }
 
   #portfolio-text {
-    margin: 10% 4% 30% 90%;
+    /* margin: 10% 4% 30% 90%; */
   }
 
   .contacts {
@@ -307,12 +292,6 @@ a:hover {
 }
   /* For small screen sizes below 800px width */
   @media screen and (max-width: 800px) {
-    .slider {
-      width: 75%;
-      height: 60vh;
-      margin: 12% auto auto 5%;
-    }
-
     #menu {
       /* width: 35%;
       margin-right: -15%; */
@@ -333,16 +312,16 @@ a:hover {
     }
 
     #view-work {
-      top: 10vh;
+      /* top: 10vh; */
       right: 85%;
     }
 
     #portfolio-text {
       width: 80vw;
-      height: 45vh;
+      /* height: 45vh; */
       float: right;
       line-height: 8vh;
-      margin: 95% 4% 30% 90%;
+      /* margin: 95% 4% 30% 90%; */
       font-size: 5vh;
     }
 
@@ -362,7 +341,7 @@ a:hover {
     .contact-email {
       width: 65%;
       font-size: 5vw;
-      margin-top: 15%;
+      /* margin-top: 15%; */
       margin-left: 38%;
     }
   }
@@ -379,16 +358,16 @@ a:hover {
     }
 
     #view-work {
-      top: 74vh;
+      /* top: 74vh; */
       right: 85%;
     }
 
     #portfolio-text {
       width: 80vw;
-      height: 45vh;
+      /* height: 45vh; */
       float: right;
       line-height: 8vh;
-      margin: 40vh 4% 30% 90%;
+      /* margin: 40vh 4% 30% 90%; */
       font-size: 4vh;
       box-shadow: none;
     }
@@ -399,12 +378,12 @@ a:hover {
     }
 
     #view-work {
-      top: 30vh;
+      /* top: 30vh; */
       right: 70%;
     }
 
     #hire-me {
-      top: 40vh;
+      /* top: 40vh; */
     }
 
     #job-sample {
@@ -420,7 +399,7 @@ a:hover {
     .contact-email {
       width: 70%;
       font-size: 5vw;
-      margin-top: 25%;
+      /* margin-top: 25%; */
       margin-right: 15%;
     }
   }
@@ -428,7 +407,7 @@ a:hover {
   /* For small screen sizes below 330px width */
   @media screen and (max-width: 330px) {
     .contacts {
-      margin-top: 45%;
+      /* margin-top: 45%; */
     }
 
     #portfolio-text {
@@ -437,7 +416,7 @@ a:hover {
 
     .contact-email {
       font-size: 8vw;
-      margin-top: 35%;
+      /* margin-top: 35%; */
       width: 100%;
       margin-left: 1%;
     }
@@ -462,7 +441,7 @@ a:hover {
   @media screen and (max-width: 295px) {
     #portfolio-text {
       font-size: 3vh;
-      margin: 31vh 4% 30% 90%;
+      /* margin: 31vh 4% 30% 90%; */
       line-height: 4vh;
     }
 
@@ -472,26 +451,26 @@ a:hover {
     }
 
     #view-work {
-      top: 30vh;
+      /* top: 30vh; */
       right: 7vh;
       left: 3vw;
     }
 
     #hire-me {
-      top: 40vh;
+      /* top: 40vh; */
     }
 
     #job-sample {
-      margin-top: 20%;
+      /* margin-top: 20%; */
     }
 
     .contacts {
-      margin-top: 1%;
+      /* margin-top: 1%; */
     }
 
     .contact-email {
       font-size: 6vw;
-      margin-top: -15%;
+      /* margin-top: -15%; */
       width: 100%;
       float: right;
       margin-right: -6%;
