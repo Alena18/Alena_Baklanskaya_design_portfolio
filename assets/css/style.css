@@ -248,108 +248,27 @@ a:hover {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-  #menu {
-    /* width: 35%;
-    margin-right: -5%; */
-    font-size: 40%;
-    line-height: 30px;
-  }
-
-  #menu li {
-    float: left;
-    list-style-type: none;
-    margin-right: 5%;
-  }
-
-  .button {
-    font-size: 60%;
-    padding: 9px;
-    width: 8%;
-  }
-
-  #view-work {
-    /* top: 70vh; */
-    right: 20%;
-  }
-
-  #hire-me {
-    /* top: 74vh; */
-    right: 7vw;
-  }
-
-  #portfolio-text {
-    /* margin: 10% 4% 30% 90%; */
-  }
-
-  .contacts {
-    /* width: 35%; */
-    font-size: 1.8vw;
-    /* position: absolute; */
-    margin-top: 0;
-    /* margin-left: 7%; */
-    float: left;
-  }
+ 
 }
   /* For small screen sizes below 800px width */
   @media screen and (max-width: 800px) {
     #menu {
-      /* width: 35%;
-      margin-right: -15%; */
-      font-size: 35%;
-      line-height: 20px;
+      line-height: 50px;
+    
     }
-
-    #menu li {
-      float: left;
-      list-style-type: none;
-      margin-right: 40%;
-    }
-
-    .button {
-      font-size: 60%;
-      padding: 9px;
-      width: 8%;
-    }
-
-    #view-work {
-      /* top: 10vh; */
-      right: 85%;
-    }
-
-    #portfolio-text {
-      width: 80vw;
-      /* height: 45vh; */
-      float: right;
-      line-height: 8vh;
-      /* margin: 95% 4% 30% 90%; */
-      font-size: 5vh;
-    }
-
-    .contacts {
-      /* width: 55%; */
-      font-size: 5vw;
-      /* position: absolute; */
-      /* margin-top: 35vh; */
-      margin-left: 7%;
-      float: left;
-    }
-
-    .font-number {
-      font-size: 3vw;
-    }
-
-    .contact-email {
-      width: 65%;
-      font-size: 5vw;
-      /* margin-top: 15%; */
-      margin-left: 38%;
-    }
+  .contacts {
+    font-size: 3.5vw;
+    } 
+  
+  .font-number {
+      font-size: 2.5vw;
+    }         
   }
 
   /* For small screen sizes below 650px width */
   @media screen and (max-width: 650px) {
     #logo {
-      width: 35%;
+      width: 25%;
     }
 
     .slider {
@@ -357,126 +276,47 @@ a:hover {
 
     }
 
-    #view-work {
-      /* top: 74vh; */
-      right: 85%;
-    }
-
     #portfolio-text {
-      width: 80vw;
-      /* height: 45vh; */
-      float: right;
-      line-height: 8vh;
-      /* margin: 40vh 4% 30% 90%; */
-      font-size: 4vh;
-      box-shadow: none;
-    }
-
-    .button {
-      font-size: 60%;
-      width: 20%;
-    }
-
-    #view-work {
-      /* top: 30vh; */
-      right: 70%;
-    }
-
-    #hire-me {
-      /* top: 40vh; */
-    }
-
-    #job-sample {
-      --num-cols: 1;
-    }
-
-    .contacts {
-      /* width: 80%; */
-      float: right;
-      /* margin-top: 35%; */
-    }
-
-    .contact-email {
-      width: 70%;
+      line-height: 7vh;
       font-size: 5vw;
-      /* margin-top: 25%; */
-      margin-right: 15%;
-    }
+        }
+
+    .button {    
+          font-size: 4vw;
+          margin: 10%;
+          padding: 20px;
+        }            
   }
 
   /* For small screen sizes below 330px width */
   @media screen and (max-width: 330px) {
-    .contacts {
-      /* margin-top: 45%; */
+    .button {
+      padding: 20px;
+      font-size: 7vw;
+      margin-left: auto;
     }
-
     #portfolio-text {
-      line-height: 4.3vh;
-    }
-
-    .contact-email {
-      font-size: 8vw;
-      /* margin-top: 35%; */
-      width: 100%;
-      margin-left: 1%;
-    }
-
-    .font-number {
-      font-size: 5vw;
-    }
-
-    .signup-form {
-      display: block;
-      font-size: 50%;
-      border-radius: 5%;
-      opacity: .9;
-      max-width: 70%;
-      position: absolute;
-      left: 3%;
-    }
-
+      font-size: 7vw;
+        }
+  .contacts {
+      font-size: 6vw;
+        } 
+        
+  .font-number {
+      font-size: 4.5vw;
+        }               
+    
   }
 
   /* For small screen sizes below 295px width */
   @media screen and (max-width: 295px) {
-    #portfolio-text {
-      font-size: 3vh;
-      /* margin: 31vh 4% 30% 90%; */
-      line-height: 4vh;
+  .button {
+    padding: 15px;
+    font-size: 10vw;
+    display: block;
     }
-
-    .button {
-      font-size: 50%;
-      width: 80%;
-    }
-
-    #view-work {
-      /* top: 30vh; */
-      right: 7vh;
-      left: 3vw;
-    }
-
-    #hire-me {
-      /* top: 40vh; */
-    }
-
-    #job-sample {
-      /* margin-top: 20%; */
-    }
-
-    .contacts {
-      /* margin-top: 1%; */
-    }
-
-    .contact-email {
-      font-size: 6vw;
-      /* margin-top: -15%; */
-      width: 100%;
-      float: right;
-      margin-right: -6%;
-    }
-
-    .input-text {
-      width: 100%;
-    }
+  #portfolio-text {
+    font-size: 10vw;
+    line-height: 5vh;
+        }
   }
