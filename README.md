@@ -11,10 +11,10 @@ modified: lots of times
 ---
 
 CoffeeBeanStudio Graphic Design Portfolio website
-CoffeeBeanStudio Graphic Design Portfolio website is the site that represent my work as a designer. It should help to get in touch with potential customers who is looking for a promotional product design.
+CoffeeBeanStudio Graphic Design Portfolio website is the site that represent my work as a promotional graphic designer. It should help to get in touch with potential customers who are looking for a promotional product design to promote their ideas.
 
 Navigation
-Logo Home View Work LinkedIn Resumé   View Work button and Hire Me button
+Logo Home View Work LinkedIn Resumé View Work button and Hire Me button
 Logo at the top left corner of the page on every page navigate to the home page 
 Home View Work LinkedIn Resumé links at the top right corner on every page
 Home link navigate to home page 
