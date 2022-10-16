@@ -167,16 +167,14 @@ a:hover {
 
 
 .signup-form {
-  display: block;
+  clear: both;
+  margin-left: 10%;
   font-size: 60%;
-  /* margin: 1% 10%; */
   color: #ab8240;
   background-color: #42250F;
   border-radius: 5%;
   opacity: .9;
   max-width: 70%;
-  position: absolute;
-  left: 10%;
   padding: 30px;
 }
 
@@ -188,20 +186,18 @@ a:hover {
 .input-text {
   background: transparent;
   color: white;
-  width: 60%;
+  width: 50vw;
   height: 25px;
-  /* margin: 5px 0 20px; */
   border: 1px solid #fafafa;
   border-radius: 2px;
 }
 
 .feedback {
-  /* height: 50vh; */
+  height: 50vh;
   width: 50vw;
 }
 
 .button-submit {
-  float: right;
   font-family: Tangerine, sans-serif;
   background-color: #42250F;
   border: 1px solid #ab8240;
@@ -247,12 +243,9 @@ a:hover {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
- 
-}
-  /* For small screen sizes below 800px width */
-  @media screen and (max-width: 800px) {
+/* For small screen sizes below 800px width */
+
+@media screen and (max-width: 800px) {
     #menu {
       line-height: 50px;
     
@@ -289,7 +282,11 @@ a:hover {
           font-size: 4vw;
           margin: 10%;
           padding: 20px;
-        }            
+        }  
+
+    #job-sample {
+          --num-cols: 1;
+        }                 
   }
 
   /* For small screen sizes below 330px width */
@@ -311,7 +308,15 @@ a:hover {
         }               
   .contact-email {
       font-size: 6vw;
-        }      
+        }
+
+ .signup-form h2 {
+          font-size: 13vw;      
+        }
+             
+  .button-submit {
+      font-size: 10vw;
+        }           
   }
 
   /* For small screen sizes below 295px width */
