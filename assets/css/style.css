@@ -27,11 +27,7 @@ body {
   float: right;
   color: #42250F;
   letter-spacing: .1vw;
-}
-
-#menu {
   line-height: 50px;
-
 }
 
 #menu li {
@@ -197,6 +193,7 @@ a:hover {
   width: 50vw;
 }
 
+
 .button-submit {
   font-family: Tangerine, sans-serif;
   background-color: #42250F;
@@ -207,6 +204,12 @@ a:hover {
   text-align: center;
   text-decoration: none;
   font-size: 150%;
+}
+
+.confirm-text {
+  clear: both;
+  line-height: 15vh;
+  text-align: center;
 }
 
 /* creates the level of zoom for job-sample */
@@ -246,88 +249,104 @@ a:hover {
 /* For small screen sizes below 800px width */
 
 @media screen and (max-width: 800px) {
-    #menu {
-      line-height: 50px;
-    
-    }
+  #menu {
+    line-height: 30px;
+
+  }
+
   .contacts {
     font-size: 3.5vw;
-    } 
+  }
+
   .contact-email {
-      font-size: 3.5vw;
-    }  
-    
+    font-size: 3.5vw;
+  }
+
   .font-number {
-      font-size: 2.5vw;
-    }         
+    font-size: 2.5vw;
+  }
+}
+
+/* For small screen sizes below 650px width */
+@media screen and (max-width: 650px) {
+  #logo {
+    width: 25%;
   }
 
-  /* For small screen sizes below 650px width */
-  @media screen and (max-width: 650px) {
-    #logo {
-      width: 25%;
-    }
+  .slider {
+    display: none;
 
-    .slider {
-      display: none;
-
-    }
-
-    #portfolio-text {
-      line-height: 7vh;
-      font-size: 5vw;
-        }
-
-    .button {    
-          font-size: 4vw;
-          margin: 10%;
-          padding: 20px;
-        }  
-
-    #job-sample {
-          --num-cols: 1;
-        }                 
   }
 
-  /* For small screen sizes below 330px width */
-  @media screen and (max-width: 330px) {
-    .button {
-      padding: 20px;
-      font-size: 7vw;
-      margin-left: auto;
-    }
-    #portfolio-text {
-      font-size: 7vw;
-        }
+  #portfolio-text {
+    line-height: 7vh;
+    font-size: 5vw;
+  }
+
+  .button {
+    font-size: 4vw;
+    margin: 10%;
+    padding: 20px;
+  }
+
+  #job-sample {
+    --num-cols: 1;
+  }
+}
+
+/* For small screen sizes below 330px width */
+@media screen and (max-width: 330px) {
+  #menu {
+    font-size: 40%;
+  }
+  .button {
+    padding: 20px;
+    font-size: 7vw;
+    margin-left: auto;
+  }
+
+  #portfolio-text {
+    font-size: 7vw;
+  }
+
   .contacts {
-      font-size: 6vw;
-        } 
-        
-  .font-number {
-      font-size: 4.5vw;
-        }               
-  .contact-email {
-      font-size: 6vw;
-        }
-
- .signup-form h2 {
-          font-size: 13vw;      
-        }
-             
-  .button-submit {
-      font-size: 10vw;
-        }           
+    font-size: 6vw;
   }
 
-  /* For small screen sizes below 295px width */
-  @media screen and (max-width: 295px) {
+  .font-number {
+    font-size: 4.5vw;
+  }
+
+  .contact-email {
+    font-size: 6vw;
+  }
+
+  .signup-form h2 {
+    font-size: 13vw;
+  }
+
+  .button-submit {
+    font-size: 10vw;
+  }
+  
+  .confirm-text {
+    line-height: 7vh;
+    font-size: 10vw;
+  }
+}
+
+/* For small screen sizes below 295px width */
+@media screen and (max-width: 295px) {
+  
   .button {
     padding: 15px;
     font-size: 10vw;
     display: block;
-    }
+  }
+
   #portfolio-text {
     font-size: 10vw;
     line-height: 5vh;
-        }
   }
+
+}
