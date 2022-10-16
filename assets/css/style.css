@@ -227,7 +227,7 @@ a:hover {
   background-color: white;
   --gap: 16px;
   --num-cols: 3;
-  --row-height: 300px;
+  --row-height: 100px;
 
   box-sizing: border-box;
   padding: var(--gap);
@@ -241,7 +241,8 @@ a:hover {
 
 #job-sample>img {
   width: 100%;
-  object-fit: scale-down;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Media queries */
