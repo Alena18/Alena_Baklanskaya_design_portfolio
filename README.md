@@ -2,7 +2,8 @@
 Alena_Baklanskaya_graphic_design_promotional_products_portfolio
 CoffeeBeanStudio Graphic Design Portfolio website
 CoffeeBeanStudio Graphic Design Portfolio website is the site that represent my work as a promotional graphic designer. It should help to get in touch with potential customers who are looking for a promotional product design to promote their ideas.
-![Responsice Mockup](assets/images/.jpg)
+
+![Am I Responsive](assets/images/scramiresponsive.jpg)
 
 ## Features 
 There are  View Work LinkedIn Resumé buttons that help customers to reach me. View Work page contain gallery of my portfolio samples. LinkedIn connect to my LinkedIn page where customers can find extra information about me, they also can download my CV through Resumé link. Every page also has my email contact, while clicking it will connect to email page. Also, Hire Me button brings to sign up form that helps customers to reach me.
@@ -14,57 +15,70 @@ There are  View Work LinkedIn Resumé buttons that help customers to reach me. V
   - Featured on all three pages, the full responsive navigation bar includes links to Logo Home View Work LinkedIn Resumé View Work button and Hire Me button Logo at the top left corner of the page on every page navigate to the home page Home and is identical in each page to allow for easy navigation. Home link navigate to home page.View Work to the page with gallery where you can see my jobs LinkedIn links to my LinkedIn page, Resumé link gives you opportunity to download my CV.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Navigation Bar](assets/images/.jpg)
+![Navigation Bar](assets/images/navigation.jpg)
 
 - __The home page slide__
   - The home page slide includes portfolio pictures that  an eye catching animation to grab visitors attention
 - Home page also contain a text that welcome customers on a page.
 
-![Slide](assets/images/.jpg)
+![Slide](assets/images/slider.jpg)
 
 - __The Footer__ 
 
   - The footer section includes links to my email, clickable.
 
-![Email](assets/images/.jpg) 
 
 - __Gallery__
 
   - The gallery will provide the user with supporting images to see what my work look like. 
   - This section is valuable to the user as they will be able to easily identify the types of I can do for them. 
 
-![Gallery](assets/images/.jpg)
+![Gallery](assets/images/gallery.jpg)
 
 - __The Feedback Page__
   - This page will allow the user to get in touch with me. The user will be asked to submit their full name and email address and leave a message or write few words about the project. 
 
-![Feedback](assets/images/.jpg)
+![Feedback](assets/images/form.jpg)
 
 ## Testing 
 
 I tested this pages work in different browser : Chrome, Firefox, Opera, Microsoft Edge.
 
-![Chrome](assets/images/.jpg)
-![FireFox](assets/images/.jpg)
-![Opera](assets/images/.jpg)
-![MicrosoftEdge](assets/images/.jpg)
+![Chrome](assets/images/chrome.jpg)
+![FireFox](assets/images/firefox.jpg)
+![Opera](assets/images/opera.jpg)
+![MicrosoftEdge](assets/images/microsoft.jpg)
+
+I tested pages using Lighthouse in chrome developer tool.
+
+![Lighthouse](assets/images/scrlighthouse.jpg)
+![Lighthouse](assets/images/scrlighthouse01.jpg)
+
+And Am I responsive (https://ui.dev/amiresponsive) pages.
+
+![Am I Responsive](assets/images/scramiresponsive.jpg)
+
+All the test showed a good results
+
+
 
 ### Validator Testing 
 
 - HTML
   - only 'section' remark was return as a notice no errors were returned when passing through the official 
 
-  ![HTML validator](assets/images/.jpg)
-  ![HTML validator](assets/images/.jpg)
-  ![HTML validator](assets/images/.jpg)
+  ![HTML validator](assets/images/scrviewwork.jpg)
+  ![HTML validator](assets/images/scrindex.jpg)
+  ![HTML validator](assets/images/scrfeedback.jpg)
   
 
 
 - CSS
   - No errors were found when passing through the official
 
-  ![HTML validator](assets/images/.jpg)
+  ![HTML validator](assets/images/scrcss.jpg)
 
+-
 ### Unfixed Bugs
 
 no unfixed bug left
