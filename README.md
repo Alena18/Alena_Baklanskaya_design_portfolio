@@ -1,4 +1,6 @@
 # Alena_Baklanskaya_design_portfolio
+The live link can be found [here](https://alena18.github.io/Alena_Baklanskaya_design_portfolio/index.html)
+
 Alena_Baklanskaya_graphic_design_promotional_products_portfolio
 CoffeeBeanStudio Graphic Design Portfolio website
 CoffeeBeanStudio Graphic Design Portfolio website is the site that represent my work as a promotional graphic designer. It should help to get in touch with potential customers who are looking for a promotional product design to promote their ideas.
